@@ -340,20 +340,19 @@ button {
 /* Ad Container */
 .ad-container {
     max-width: var(--container-max);
-    margin: 0 auto;
-    padding: 16px;
+    margin: 20px auto;
+    padding: 0 16px;
 }
 
 .ad-box {
     min-height: 100px;
-    background: var(--white);
-    border-radius: 8px;
-    overflow: hidden;
+    background: transparent;
 }
 
-.ad-box ins {
+.ad-box ins.adsbygoogle {
     display: block !important;
-    min-height: 90px;
+    min-height: 100px;
+    width: 100% !important;
 }
 
 .hero-ad-top {
