@@ -370,6 +370,28 @@ button {
     border-radius: 8px;
 }
 
+/* Hero Ad Middle (between title and subtitle) */
+.hero-ad-middle {
+    width: 100%;
+    max-width: var(--container-max);
+    margin: 20px auto;
+    padding: 0 16px;
+}
+
+.hero-ad-middle ins {
+    display: block !important;
+    min-height: 90px;
+    background: var(--gray-100);
+    border-radius: 8px;
+}
+
+/* Hero Content Bottom */
+.hero-content-bottom {
+    max-width: 600px;
+    text-align: center;
+    color: var(--dark);
+}
+
 /* Calculator */
 .calculator-card {
     background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
